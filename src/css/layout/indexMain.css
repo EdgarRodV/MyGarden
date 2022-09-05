@@ -1,0 +1,12 @@
+.plantas-card{margin-bottom: 20px;}
+.plantas-card:last-child{margin-bottom: 0;}
+.plantas-card img{border-radius: 10px 10px 0 0;} 
+.plantas-card-name{
+    background-color: var(--darkGreen);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}

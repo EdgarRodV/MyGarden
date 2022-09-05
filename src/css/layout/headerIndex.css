@@ -1,0 +1,10 @@
+.sectionHeroe{
+    background-image: url(../../img/heroes/interiorDesign.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 300px;
+    padding: 20px 0;
+}
+.navbar{border-radius: 10px;}
