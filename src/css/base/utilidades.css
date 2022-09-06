@@ -1,1 +1,7 @@
 .espacio{padding-top: 50px;}
+.subtitulo{
+    color: var(--orange);
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-size: 25px;
+}

@@ -10,3 +10,20 @@
     padding: 10px;
     border-radius: 0 0 10px 10px;
 }
+.plantas-card-name h3{font-size: 20px;}
+
+@media (min-width: 768px){
+    .plantas-contenido{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .plantas-card{margin-bottom: 0px;}
+    .plantas-card:hover{
+        box-shadow: 5px 5px 2px rgba(0, 0, 0, .3);
+        border-radius: 10px;
+        transition: ease .3s;
+    }
+}
