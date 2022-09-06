@@ -36,7 +36,8 @@
 
 - [HTML]()
 - [CSS]()
-- [SCSS]()
+- [JS]()
+- [AngularJS]()
 
 ## Caracteristicas
 
