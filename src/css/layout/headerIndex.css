@@ -1,10 +1,16 @@
 .sectionHeroe{
-    background-image: url(../../img/heroes/interiorDesign.jpg);
+    background-image: url(../../img/heroes/heroeIndex.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     width: 100%;
     height: 300px;
     padding: 20px 0;
+}
+@media (min-width: 768px) {
+    .sectionHeroe{
+        height: 600px;
+        background-attachment: fixed;
+    }
 }
 .navbar{border-radius: 10px;}

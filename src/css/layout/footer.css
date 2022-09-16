@@ -1,0 +1,14 @@
+footer{
+    background-color: #FCF8E8;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.footer-content p{
+    font-weight: 600;
+    margin: 0;
+}

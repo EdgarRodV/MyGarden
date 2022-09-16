@@ -1,0 +1,31 @@
+form h3{
+    padding-bottom: 20px;
+    color: var(--green);
+    text-align: center;
+}
+.form-contactame{
+    background-color: var(--darkGreen);
+    padding: 20px;
+    border-radius: 10px;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.campo input, .campo textarea{
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media (min-width: 768px) {
+    .contactame{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-contactame{
+        width: 400px;
+    }
+}
