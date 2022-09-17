@@ -11,7 +11,9 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
 }
-body{font-family: 'Source Sans Pro', sans-serif;}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .container{
     width: 95%;
     margin: 0 auto;

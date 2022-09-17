@@ -29,3 +29,7 @@ form h3{
         width: 400px;
     }
 }
+.btn-principal:hover{
+    transition: ease 0.3s;
+    transform: scale(1.07);
+}

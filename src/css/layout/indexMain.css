@@ -1,29 +1,25 @@
-.plantas-card{margin-bottom: 20px;}
-.plantas-card:last-child{margin-bottom: 0;}
-.plantas-card img{border-radius: 10px 10px 0 0;} 
-.plantas-card-name{
-    background-color: var(--darkGreen);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 0 0 10px 10px;
+.plantas-card-name p:first-child{
+    font-weight: 600;
 }
-.plantas-card-name h3{font-size: 20px;}
-
+.plantas-card-name p{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.plantas-contenido{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
 @media (min-width: 768px){
     .plantas-contenido{
-        display: grid;
         grid-template-columns: repeat(4,1fr);
-        gap: 10px;
     }
-}
-@media (min-width: 768px) {
-    .plantas-card{margin-bottom: 0px;}
     .plantas-card:hover{
-        box-shadow: 5px 5px 2px rgba(0, 0, 0, .3);
-        border-radius: 10px;
-        transition: ease .3s;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        transition: ease 0.3s;
     }
 }
