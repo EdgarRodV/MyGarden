@@ -16,10 +16,12 @@
 }
 @media (min-width: 768px){
     .plantas-contenido{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(5,1fr);
+        gap: 20px;
     }
     .plantas-card:hover{
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
         transition: ease 0.3s;
+        transform: scale(1.02);
     }
 }

@@ -1,17 +1,30 @@
 .espacio{padding-top: 50px;}
 .subtitulo{
-    color: var(--orange);
+    color: #647E68;
     font-weight: 600;
     padding-bottom: 20px;
     font-size: 25px;
 }
+.logo{
+    color: #483838;
+    font-size: 25px;
+}
 .btn-principal{
-    background-color: var(--orange);
-    color: white;
+    background-color: transparent;
+    color: #D6CDA4;
     padding: 10px 20px;
-    border: none;
+    border: solid 3px transparent;
+    border-bottom: solid 3px #D6CDA4;
     font-weight: 600;
     border-radius: 10px;
     text-align: center;
+    font-size: 20px;
     width: 100%;
+}
+.navbar-toggler{
+    border: none;
+    font-size: 25px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
 }

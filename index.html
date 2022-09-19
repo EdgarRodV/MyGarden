@@ -29,16 +29,16 @@
     <header class="container">
         <nav class="navbar navbar-expand-lg" style="background-color: white;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><b>My Garden</b></a>
+              <a class="navbar-brand logo" href="#"><b>My Garden</b></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                   <a class="nav-link" href="#">Plantas</a>
-                  <a class="nav-link" href="#">Nosotros</a>
-                  <a class="nav-link" href="#">Contactanos</a>
+                  <a class="nav-link" href="#nosotros">Nosotros</a>
+                  <a class="nav-link" href="#contactanos">Contactanos</a>
                 </div>
               </div>
             </div>
@@ -69,11 +69,11 @@
                 <div class="plantas-card">
                     <a href="#">
                         <picture>
-                            <source srcset="src/img/plants/Monstera.webp" type="image/webp">
-                            <img src="src/img/plants/Monstera.jpg" alt="Planta Monstera" loading="lazy">
+                            <source srcset="src/img/plants/AlocasiaWentii.webp" type="image/webp">
+                            <img src="src/img/plants/AlocasiaWentii.jpg" alt="Planta Monstera" loading="lazy">
                         </picture>
                         <div class="plantas-card-name">
-                            <p>Monstera</p>
+                            <p>Alocasia Wentii</p>
                             <p>Media Sombra</p>
                         </div>
                     </a>
@@ -82,11 +82,11 @@
                 <div class="plantas-card">
                     <a href="#">
                         <picture>
-                            <source srcset="src/img/plants/Monstera.webp" type="image/webp">
-                            <img src="src/img/plants/Monstera.jpg" alt="Planta Monstera" loading="lazy">
+                            <source srcset="src/img/plants/Sansevieria.webp" type="image/webp">
+                            <img src="src/img/plants/Sansevieria.jpg" alt="Planta Monstera" loading="lazy">
                         </picture>
                         <div class="plantas-card-name">
-                            <p>Monstera</p>
+                            <p>Sansevieria</p>
                             <p>Media Sombra</p>
                         </div>
                     </a>
@@ -95,11 +95,24 @@
                 <div class="plantas-card">
                     <a href="#">
                         <picture>
-                            <source srcset="src/img/plants/Monstera.webp" type="image/webp">
-                            <img src="src/img/plants/Monstera.jpg" alt="Planta Monstera" loading="lazy">
+                            <source srcset="src/img/plants/telefono.webp" type="image/webp">
+                            <img src="src/img/plants/telefono.jpg" alt="Planta Monstera" loading="lazy">
                         </picture>
                         <div class="plantas-card-name">
-                            <p>Monstera</p>
+                            <p>Telefono</p>
+                            <p>Media Sombra</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Fin de la card planta -->
+                <div class="plantas-card">
+                    <a href="#">
+                        <picture>
+                            <source srcset="src/img/plants/GoeppertiaInsignis.webp" type="image/webp">
+                            <img src="src/img/plants/GoeppertiaInsignis.jpeg" alt="Planta Monstera" loading="lazy">
+                        </picture>
+                        <div class="plantas-card-name">
+                            <p>Goeppertia insignis</p>
                             <p>Media Sombra</p>
                         </div>
                     </a>
@@ -108,7 +121,7 @@
             </div>
         </div>
     </main>
-    <section>
+    <section id="nosotros">
         <div class="sobreNosotros espacio container">
             <div class="sobreNosotros-heroe"></div>
             <div>
@@ -128,7 +141,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="contactanos">
         <div class="container espacio contactame">
             <form action="" class="form-contactame">
                 <h3>Contactanos</h3>
@@ -142,8 +155,8 @@
     </section>
     <footer>
         <div class="container footer-content">
-            <h2>My Garden</h2>
-            <p>Edgar Rodríguez Villalba | Iniciación al Computo 2</p>
+            <h2 class="logo"><b>My Garden</b></h2>
+            <p>Edgar Rodríguez V. | Iniciación al Computo 2</p>
         </div>
     </footer>
     <!-- JavaScript Bootstrap -->

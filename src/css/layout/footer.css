@@ -18,6 +18,11 @@ footer{
     }
 }
 .footer-content p{
-    font-weight: 600;
     margin: 0;
+    margin-top: 10px;
+}
+@media (min-width: 768px) {
+    .footer-content p{
+        margin-top: 0;
+    }
 }

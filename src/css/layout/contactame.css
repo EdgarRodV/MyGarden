@@ -1,12 +1,14 @@
-form h3{
+.form-contactame h3{
     padding-bottom: 20px;
-    color: var(--green);
+    color: #D6CDA4;
     text-align: center;
+    font-size: 30px;
 }
 .form-contactame{
-    background-color: var(--darkGreen);
+    background-color: #647E68;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .campo{
     display: flex;
@@ -30,6 +32,8 @@ form h3{
     }
 }
 .btn-principal:hover{
-    transition: ease 0.3s;
-    transform: scale(1.07);
+    border: solid 3px #D6CDA4;
+    background-color: #D6CDA4;
+    color: #647E68;
+    transition: ease-in 0.3s;
 }
