@@ -1,0 +1,31 @@
+.plantSection-desc{padding-top: 30px;}
+.plantSection-desc p{padding-top: 10px;}
+.plantSection-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.plantSection-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plantSection-icon span{
+    font-size: 45px;
+}
+@media (min-width: 768px) {
+    .plantasSection{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .plantSection-desc{padding-top: 0px;}
+}
+@media (min-width: 1200px) {
+    .plantSection-icons{
+        width: 400px;
+        height: auto;
+    }
+}
