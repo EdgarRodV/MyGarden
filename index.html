@@ -50,8 +50,12 @@
     <main ng-controller="plantasCtrl">
         <div class="container espacio" id="plantas">
             <h2 class="subtitulo">Nuestras Plantas</h2>
-            <div class="plantas-contenido">
-                <div class="plantas-card" ng-repeat="planta in plantas">
+            <form action="" class="form-search" id="form-search">
+                <input type="text" placeholder="Buscar planta" ng-model="plantaSearch" id="searchPlant">
+                <span class="material-symbols-outlined">search</span>
+            </form>
+            <div class="plantas-contenido espacio">
+                <div class="plantas-card" ng-repeat="planta in plantas | filter:plantaSearch">
                     <a href="{{planta.url}}">
                         <picture>
                             <source srcset="src/img/plants/{{planta.imagen}}.webp" type="image/webp">

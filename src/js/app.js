@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function app(){
     validarFormulario();
+    search()
 }
 
 function validarFormulario(){
@@ -50,4 +51,15 @@ function errorForm(e){
 function limpiarError(){
     error.innerHTML = ''
     error.classList.remove('error');
+}
+//ANIMAR BUSCADOR
+function search(){
+    const inptSearch = document.getElementById('searchPlant');
+    const formSearch = document.getElementById('form-search');
+    inptSearch.addEventListener('click',function(){
+        formSearch.classList.add('searchIn');
+    });
+    inptSearch.addEventListener('blur',function(){
+        formSearch.classList.remove('searchIn');
+    });
 }

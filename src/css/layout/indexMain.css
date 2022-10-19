@@ -1,3 +1,4 @@
+.plantas-card{padding-bottom: 10px;}
 .plantas-card-name p:first-child{
     font-weight: 600;
 }
@@ -14,8 +15,40 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-
+/* SEARCH */
+.form-search{
+    display: flex;
+    align-items: center;
+}
+.form-search span,.form-search input{
+    color: #c4c4c4c4;
+    font-weight: 500;
+}
+.form-search input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: solid 2px var(--green);
+    outline: none;
+}
+.form-search input, .form-search span{cursor: pointer;}
+.form-search span{margin-left: -40px;}
+.searchIn span, .searchIn input{
+    color: #383838;
+    border-color: var(--darkGreen);
+    font-weight: 600;
+    transition: ease .2s;
+}
+.searchIn span{
+    color: var(--darkGreen);
+    font-weight: 500;
+}
 /* Media queries */
+@media (min-width: 768px) {
+    .form-search input{
+        width: 450px;
+    }
+}
 @media (min-width: 768px){
     .plantas-contenido{
         grid-template-columns: repeat(5,1fr);
